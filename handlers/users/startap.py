@@ -1137,6 +1137,7 @@ async def status_handler(message: types.Message):
         )
         return
 
+<<<<<<< Updated upstream
     order_info = format_order_info(order)
     answers_count = len(order['answers'])
 
@@ -1267,3 +1268,6 @@ if __name__ == '__main__':
     logger.info(f"OpenAI: {'Enabled' if USE_OPENAI else 'Disabled'}")
     logger.info(f"Database: pitch_bot.db")
     logger.info("=" * 50)
+=======
+# Qolgan kodlar o'zgarmaydi...
+>>>>>>> Stashed changes
